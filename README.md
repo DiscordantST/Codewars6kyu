@@ -52,3 +52,11 @@ It must return the display text as shown in the examples:
 ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+
+- Array.diff:
+
+Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+It should remove all values from list a, which are present in list b keeping their order.
+array_diff([1,2],[1]) == [2]
+If a value is present in b, all of its occurrences must be removed from the other:
+array_diff([1,2,2,2,3],[2]) == [1,3]
