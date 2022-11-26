@@ -69,3 +69,11 @@ Example
 create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns "(123) 456-7890"
 The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
+
+- Bit Counting:
+
+Write a function that takes an integer as input, and returns the number of bits that are equal to one 
+in the binary representation of that number. 
+You can guarantee that input is non-negative.
+Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+
