@@ -9,7 +9,7 @@ def duplicate_encode(word):
         if simple_list.count(simple_list[i].lower()) == 1:
             simple_list_reform.append(simple_list[i].lower().replace(simple_list[i].lower(), "("))
     return "".join(simple_list_reform)
-\
+
 # another answer
 #
 # def duplicate_encode(word):
